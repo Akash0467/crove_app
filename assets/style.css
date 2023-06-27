@@ -1,0 +1,659 @@
+/* Template Name: Croove App
+Author Name: Akash Roy
+Author URL :akashroy0467@gmail.com
+ */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html{
+    font-size: 62.5%;
+ }
+ body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+ }
+ .main-containar{
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+ }
+ :root{
+    --color1: #ffffff;
+    --color2: #233148;
+    --color3: #6a6d89;
+    --color4: #33d2fd;
+ }
+ h1{
+    font-size: 45px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 45px;
+    line-height: 4.5rem;
+ }
+ ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none; 
+ }
+ a{
+    text-decoration: none;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+ }
+ p{
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 27px;
+    line-height: 2.7rem;
+ }
+ /* %%%%%%%%%%%%%%%%%%%%%%%%&&& */
+     /* 1. Header Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+.header-area{
+    background: url(../assets/iamges/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 25px;
+    padding-top: 2.5rem;
+    padding-bottom: 350px;
+    padding-bottom: 35rem;
+    z-index: 1;
+}
+.header-item-top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu ul li a{
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 20px;
+    margin: 2rem;
+    color: var(--color1);
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.menu ul li a:hover,
+.menu ul li a.active{
+    color: var(--color2);
+}
+.click-down{
+    display: none;
+}
+.click-down i{
+    font-size: 3.5rem;
+    color: var(--color1);
+  }
+.header-item-bottom{
+    text-align: center;
+    padding: 120px 0;
+    padding: 12rem 0;
+}
+.header-item-bottom h1{
+    max-width: 50%;
+    margin: auto;
+    color: var(--color1);
+    line-height: 55px;
+    line-height: 5.5rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+.header-item-bottom p{
+    color: var(--color1);
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+}
+.button{
+    margin-top: 45px;
+    margin-top: 4.5rem;
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+.button a{
+    padding: 10px 25px;
+    padding: 1rem 2.5rem;
+    border-radius: 0.8rem;
+    border: 2px solid var(--color1);
+    border: 0.2rem solid var(--color1);
+    background: none;
+    color: var(--color1);
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.button .btn2{
+    margin-left: 20px;
+    margin-left: 2rem;
+}
+.button a:hover{
+    background: var(--color1);
+    color: var(--color2);
+}
+.ovely-phone{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: -1;
+}
+.ovely-phone img{
+    position: absolute;
+    top: 53%;
+}
+ /* %%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+     /*2. Marketing Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.marketing-area{
+    background: url(../assets/iamges/stailish.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -150px;
+    margin-top: -15rem;
+    z-index: 1;
+}
+.marketing-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 250px;
+    padding-top: 25rem;
+}
+.marketing-item-right{
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin-left: 150px;
+    margin-left: 15rem;
+    
+}
+.marketing-item-left img{
+    display: block;
+}
+.marketing-item-right{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.icon-left{
+    margin-left: 50px;
+    margin-left: 5rem;
+    padding: 50px 20px;
+    padding: 5rem 2rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 3px 5.196px 9px 0px rgba( 35, 39, 47, 0.15);
+    border-radius: 0.5rem;
+}
+.icon-right{
+    margin-right: 50px;
+    margin-right: 5rem;
+    padding: 50px 20px;
+    padding: 5rem 2rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 3px 5.196px 9px 0px rgba( 35, 39, 47, 0.15);
+    border-radius: 0.5rem;
+}
+.marketing-item-right img{
+    padding-top: 20px;
+    padding-top: 2rem;
+    padding-bottom: 30px;
+    padding-bottom: 3rem;
+}
+.marketing-item-right h4{
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+}
+.marketing-item-right-icon1 {
+    margin-bottom: 90px;
+    margin-bottom: 9rem;
+  }
+.marketing-item-right-icon1 p{
+    padding-bottom: 0;
+}
+.marketing-item-right-icon2{
+    margin-top: 80px;
+    margin-top: 8rem;
+}
+.marketing-item-right-icon2 p{
+    padding-bottom: 10px;
+    padding-bottom: 1rem;
+}
+.marketing-item-right-icon4{
+    margin-top: 100px;
+    margin-top: 10rem;
+}
+.marketing-item-right-icon3 {
+    margin-bottom: 90px;
+    margin-bottom: 9rem;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+    /* 3. Marketing Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.marketing-item-left img{
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.marketing-item-left img:hover{
+    -webkit-transform: scale(0.8, 0.8);
+            transform: scale(0.8, 0.8);
+}
+.stable-area{
+    margin-top: 70px;
+    margin-top: 7rem;
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.stable-area-items{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10rem;
+}
+.stable-item-left{
+    text-align: right;
+}
+.stable-item-left h2{
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    font-size: 35px;
+    font-size: 3.5rem;
+}
+.stable-item-left p{
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+    line-height: 27px;
+    line-height: 2.7rem;
+    color: var(--color2);
+}
+.stable-item-left a{
+    padding: 10px 28px;
+    padding: 1rem 2.8rem;
+    border: 2px solid var(--color4);
+    border: 0.2rem solid var(--color4);
+    border-radius: 0.5rem;
+    color: var(--color2);
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.stable-item-left a:hover{
+    background: var(--color4);
+    color: var(--color1);
+}
+.stable-item-right {
+    height: 403px;
+  }
+.stable-item-right-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 25px;
+    padding: 2.5rem 2.5rem;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 3px 5.196px 9px 0px rgba( 35, 39, 47, 0.15 );
+    color: var(--color2);
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    overflow: hidden;
+}
+.stable-item-right-icon:hover{
+    background: var(--color4);
+    color: var(--color1);
+    padding-bottom: 65px;
+    padding-bottom: 6.5rem;
+}
+.stable-item-right-icon img{
+    margin-right: 20px;
+    margin-right: 2rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.stable-item-right-icom-bottom{
+    position: relative;
+}
+.stable-max-width{
+    position: absolute;
+    top: 200%;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+  .stable-max-width{
+    width: 450px;
+  }
+  .stable-item-right-icon:hover .stable-max-width{
+        top: 80%;
+        visibility: visible;
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+.stable-margin-bottom-1{
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.stable-margin-bottom-2{
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.stable-margin-bottom-2 img{
+    margin-left: 10px;
+    margin-left: 1rem;
+}
+.stable-margin-bottom-2 h4{
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.stable-margin-bottom-2 p{
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+.stable-margin-bottom-3{
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+    /* 4. Need Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.need-area{
+    padding: 40px 0;
+    padding: 4rem 0;
+    background-color: rgb( 250, 250, 252 );
+}
+.need-area-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.need-area-item-left{
+    padding-right: 60px;
+    padding-right: 6rem;
+}
+.need-area-item-left img{
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.need-area-item-left img:hover{
+    -webkit-transform: scale(1.15, 1.15);
+            transform: scale(1.15, 1.15);
+}
+.need-area-item-right{
+    padding-left: 40px;
+    padding-left: 4rem;
+}
+.need-area-item-right h2{
+    font-size: 30px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    color: var(--color2);
+}
+.need-area-item-right p{
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    color: var(--color2);
+}
+.check-icon h4{
+    display: inline-block;
+    color: var(--color2);
+}
+.check-icon i{
+    padding: 5px;
+    padding: 0.5rem;
+    background: var(--color4);
+    border-radius: 50%;
+    font-size: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    margin-right: 10px;
+    margin-right: 1rem;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+    /* 5. Available Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.available-area{
+    background: url(../assets/iamges/available-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.available-areas-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 70px 0;
+    padding: 7rem 0;
+}
+.available-areas-item-left img{
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.available-areas-item-left img:hover{
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+}
+.available-areas-item-right{
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+}
+.available-apps{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.available-areas-item-right h2{
+    font-size: 33px;
+    font-size: 3.3rem;
+    color: var(--color2);
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.available-areas-item-right p{
+    max-width: 85%;
+    color: var(--color1);
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+}
+.available-app-left{
+    margin-right: 32px;
+    margin-right: 3.2rem;
+}
+.get-tha-btn{
+    text-align: center;
+}
+.get-tha-btn a{
+    background-image: -webkit-linear-gradient( rgb(255,124,110) 1%, rgb(245,49,127) 99%);
+    background-image: linear-gradient( rgb(255,124,110) 1%, rgb(245,49,127) 99%);
+    color: var(--color1);
+    padding: 15px 55px;
+    padding: 1.5rem 5.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 5.5px 9.526px 29px 0px rgba( 255, 7, 95, 0.15);
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+    /* 6. Infomation Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.information-area{
+    margin-top: 100px;
+    margin-top: 10rem;
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+.information-item-top{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+    padding: 0 150px;
+    padding: 0 15rem;
+}
+.information-item-top-item1 h4{
+    color: var(--color2);
+    font-size: 17px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.list ul{
+    display: block;
+}
+.list ul li a{
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: var(--color2);
+    line-height: 30px;
+    line-height: 3rem;
+    font-weight: 300;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.list ul li a:hover{
+    padding-left: 20px;
+    padding-left: 2rem;
+    color: rgb(245,49,127);
+}
+.information-item-bottom{
+    text-align: center;
+    margin-top: 70px;
+    margin-top: 7rem;
+}
+.information-item-bottom h2{
+    margin-bottom: 13px;
+    margin-bottom: 1.3rem;
+}
+.information-item-bottom p{
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.input-group{
+    width: 75%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.input1{
+    width: 70%;
+    margin-right: 30px;
+    margin-right: 3rem;
+    background-color: rgb( 246, 247, 251 );
+    border: none;
+    outline: none;
+    padding: 15px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.btn5{
+    padding: 10px 40px;
+    padding: 1rem 4rem;
+    outline: none;
+    border: 2px solid var(--color4);
+    border: 0.2rem solid var(--color4);
+    border-radius: 0.2rem;
+    color: var(--color2);
+    background: var(--color4);
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.btn5:hover{
+    background: var(--color4);
+    color: var(--color1);
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%&&& */
+    /* 7. Footer Area Css */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.footer-area{
+    background: var(--color2);
+    padding: 20px 0;
+    padding: 2rem 0;
+}
+.footer-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-item-left p{
+    color: var(--color1);
+}
+.footer-item-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-item-right-icon i{
+    margin: 0 20px;
+    margin: 0 2rem;
+    font-size: 22px;
+    font-size: 2.2rem;
+    color: var(--color1);
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+.footer-item-right-icon i:hover{
+    color: var(--color4);
+    -webkit-transform: scale(1.3, 1.3);
+            transform: scale(1.3, 1.3);
+}

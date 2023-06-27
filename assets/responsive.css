@@ -1,0 +1,314 @@
+@media all and ( max-width: 1200px ) {
+  .main-containar{
+      width: 90%;
+   }
+   .header-item-bottom h1 {
+      max-width: 60%;
+    }
+  .marketing-area {
+      background-size: contain;
+    }
+    .stable-item-right-icon:hover{
+      padding-bottom: 8.5rem;
+  }
+    .stable-max-width{
+      width: 350px;
+    }
+}
+@media all and ( max-width: 1072px ){
+  .ovely-phone img {
+      top: 53%;
+    }
+    .header-item-bottom h1 {
+      max-width: 70%;
+    }
+    .stable-max-width{
+      width: 320px;
+    }
+}
+@media all and ( max-width: 992px ){
+.marketing-items {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.marketing-item-right {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  margin-left: 0;
+}
+.marketing-item-right-icon2.icon-left {
+  margin-right: 5rem;
+}
+.marketing-item-right-icon3.icon-right {
+  margin-left: 5rem;
+}
+.marketing-item-right-icon4.icon-right {
+  margin-bottom: 5rem;
+}.stable-item-left p {
+  max-width: 85%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.stable-item-left {
+  text-align: center;
+}
+.stable-max-width {
+  width: 500px;
+}
+.stable-area-items {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+.need-area-items {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.need-area-item-right {
+  padding-left: 4rem;
+  margin-top: 3rem;
+}
+.need-area-item-right p {
+  max-width: 75%;
+}
+}
+@media all and ( max-width: 840px ){
+  .header-area {
+      padding-bottom: 45rem;
+    }
+    .ovely-phone img {
+      top: 47%;
+    }
+    .header-item-bottom {
+      text-align: center;
+      padding: 5rem 0;
+    }
+}
+@media all and ( max-width: 768px ){
+	.header-item-top {
+	  border-bottom: 2px solid #80808033;
+	  padding-bottom: 10px;
+}
+    .header-item-bottom h1 {
+      max-width: 90%;
+    }
+    .marketing-items {
+      padding-top: 16rem;
+    }
+    .need-area-item-left {
+      padding-right: 0;
+    }
+    .available-areas-items {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .available-areas-item-right {
+      text-align: center;
+      margin-top: 5rem;
+    }
+    .available-areas-item-right p {
+      max-width: 76%;
+      margin: auto;
+      margin-bottom: 3rem;
+    }
+    .available-apps {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .information-item-top {
+      padding: 0;
+      margin: 0 6rem;
+    }
+}
+@media all and ( max-width: 676px ){
+.need-area-item-left img:hover {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.need-area-item-right p {
+  max-width: 100%;
+}
+.stable-item-left p {
+  max-width: 100%;
+}
+.available-areas-item-right p {
+  max-width: 100%;
+}
+.information-item-top {
+  padding: 0;
+  margin: 0;
+}
+.input-group {
+  width: 100%;
+}
+.footer-items {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer-item-left {
+  margin-bottom: 3rem;
+}
+}
+@media all and ( max-width: 612px ){
+    .ovely-phone img {
+      top: 48%;
+    }
+    .header-item-bottom h1 {
+      max-width: 100%;
+    }
+    .marketing-item-right {
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr;
+    }
+    .marketing-item-right-icon1 {
+      margin-bottom: 0;
+      margin-right: 5.5rem;
+    }
+    .marketing-item-right-icon2.icon-left {
+      margin-right: 5rem;
+      margin-bottom: 7rem;
+    }
+    .marketing-item-right-icon4 {
+      margin-top: 0rem;
+      margin-left: 5.5rem;
+    }
+    .need-area-item-right {
+      padding-left: 0rem;
+    }
+    .stable-max-width {
+      width: 400px;
+    }
+}
+@media all and ( max-width: 576px ){
+      .menu {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background: #7abeea;
+        width: 0;
+        overflow: hidden;
+        transition: 0.7s;
+      }
+      .menu.other{
+        width: 100%;
+      }
+      .menu ul {
+        flex-direction: column;
+        padding: 1.5rem 0;
+      }
+      .menu ul li{
+          padding: 1rem 0;
+      }
+      .header-item-top-event {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 0 0 100%;
+      }
+      .click-down {
+        display: block;
+        font-size: 3rem;
+      }
+    .header-item-bottom h1 {
+      font-size: 3.7rem;
+    }
+    .need-area-item-left img{
+      width: 480px;
+    }
+    .information-item-top {
+      -ms-grid-columns: (1fr)[2];
+          grid-template-columns: repeat(2, 1fr);
+    }
+    .information-item-top-item1 {
+      margin-left: 2.5rem;
+    }
+    .input-group {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .input1 {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+}
+@media all and ( max-width: 510px ){
+.button a {
+  display: block;
+}
+.button .btn2 {
+  margin-left: 0rem;
+  margin-top: 3rem;
+}
+.ovely-phone img {
+  top: 54%;
+}
+.stable-max-width {
+  width: 300px;
+}
+.need-area-item-left img{
+  width: 420px;
+}
+.available-areas-item-left img {
+  height: 430px;
+}
+}
+@media all and ( max-width: 432px ){
+    .ovely-phone img {
+      top: 55%;
+    }
+    .need-area-item-left img{
+      width: 400px;
+    }
+    .available-apps {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .available-app-left {
+      margin: 0;
+      margin-bottom: 3rem;
+    }
+}
+@media all and ( max-width: 420px ){
+  .header-item-bottom h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+    .need-area-item-left img{
+      width: 350px;
+    }
+    .button a {
+      display: block;
+    }
+    .button .btn2 {
+      margin-left: 0;
+      margin-top: 2rem;
+      display: block;
+    }
+    .stable-item-right-icon:hover{
+      padding-bottom: 9rem;
+  }
+    .stable-max-width {
+      width: 300px;
+    }
+}
+@media all and ( max-width: 380px ){
+.stable-max-width {
+  width: 250px;
+}
+.stable-item-right-icon:hover{
+    padding-bottom: 12rem;
+}
+}
